@@ -255,7 +255,7 @@ public class WheelView extends View {
         }
         float[] clear = minToMax(param);
         for (WheelItem wheelItem : wheelItems) {
-            if (wheelItem.y == clear[4]) {
+            if (wheelItem.y == clear[2]) {
                 return wheelItem;
             }
         }
